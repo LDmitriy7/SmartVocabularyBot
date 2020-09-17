@@ -10,4 +10,4 @@ async def test(msg: Message):
     await msg.answer(str(get_dict(word)))
 
 
-
+start()
