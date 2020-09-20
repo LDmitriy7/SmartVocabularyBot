@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup as BS
 from urllib.parse import quote
 from text_utils import define_lang
-from MixIn.functions import make_headers
+from fake_headers import make_headers
 
 BASE_URL = f'https://context.reverso.net/{quote("перевод")}/'
 
